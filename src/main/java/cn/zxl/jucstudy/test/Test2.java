@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 @Slf4j(topic = "c.Test2")
-public class test2 {
+public class Test2 {
     public static void main(String[] args) {
         FutureTask<String>stringFutureTask=new FutureTask<>(() -> {;
             log.info("t1 start");
